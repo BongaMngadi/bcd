@@ -36,5 +36,5 @@ socket(httpServer);
 
 const PORT = process.env.PORT || process.env.API_PORT;
 httpServer.listen({ port: PORT }, () => {
-  console.log(`httpServer ready at http://localhost:${PORT}`);
+  console.log(`https://bcd.onrender.com`);
 });
